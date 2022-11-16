@@ -1,0 +1,31 @@
+`timescale 1 ps/ 1 ps
+module LED_Project_vlg_tst();
+reg clk;
+reg rst;
+reg sel;
+// wires                                               
+wire [7:0]  q;
+                         
+LED_Project i1 (
+	.clk(clk),
+	.q(q),
+	.rst(rst),
+	.sel(sel)
+);
+
+initial                                                
+begin                                                                  
+	clk=1;
+	#50 sel=0;
+	#50 rst=1;
+	#50 rst=0;
+	#50 rst=1;                                                              
+end 
+                                                   
+always                                                              
+begin                                                                     
+   #250 clk=~clk;                                                                                                                                           
+end  
+                                                  
+endmodule
+

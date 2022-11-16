@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LED Project/simulation/modelsim
+vcolor
+Z1 !s110 1561929532
+!i10b 1
+!s100 L3M>]HcJIoP:6a@9C5bKo0
+I>kLCTec1<UZ6c]kdh=ki<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1561079375
+8E:/LED Project/color.v
+FE:/LED Project/color.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1561929532.000000
+!s107 E:/LED Project/color.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project|E:/LED Project/color.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+E:/LED Project}
+Z7 tCvgOpt 0
+vdebounce
+R1
+!i10b 1
+!s100 EKfO0:bLdGmNQ4C^_1_?D3
+I^kf>:j3hU:9gIeLCXbdM42
+R2
+R0
+w1561077745
+8E:/LED Project/debounce.v
+FE:/LED Project/debounce.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/LED Project/debounce.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project|E:/LED Project/debounce.v|
+!i113 1
+R5
+R6
+R7
+vfenpin
+R1
+!i10b 1
+!s100 Z53B@fBTR2l@HIYoOW<id1
+IYdLW<C4NbaUJ6A]hWEiz80
+R2
+R0
+w1561078393
+8E:/LED Project/fenpin.v
+FE:/LED Project/fenpin.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/LED Project/fenpin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project|E:/LED Project/fenpin.v|
+!i113 1
+R5
+R6
+R7
+vLED_Project
+R1
+!i10b 1
+!s100 _I7K[?<9KhZDI`]=F@IQ[1
+IV>;_HX]Jha=23GAVH9[[l2
+R2
+R0
+w1561078045
+8E:/LED Project/LED_Project.v
+FE:/LED Project/LED_Project.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/LED Project/LED_Project.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project|E:/LED Project/LED_Project.v|
+!i113 1
+R5
+R6
+R7
+n@l@e@d_@project
+vLED_Project_vlg_tst
+R1
+!i10b 1
+!s100 ha9nfAK`7jJf;Pa`;RTiK3
+IKToE[EmQF5:g3z^8^2GGS0
+R2
+R0
+w1561929518
+8E:/LED Project/simulation/modelsim/LED_Project.vt
+FE:/LED Project/simulation/modelsim/LED_Project.vt
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/LED Project/simulation/modelsim/LED_Project.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project/simulation/modelsim|E:/LED Project/simulation/modelsim/LED_Project.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+E:/LED Project/simulation/modelsim}
+R7
+n@l@e@d_@project_vlg_tst
+vmux
+R1
+!i10b 1
+!s100 A:5Jc7Gg_3ZD4_7_AiC:N0
+I=C>:mHQJRG^[<>h=8Te_<3
+R2
+R0
+w1561078245
+8E:/LED Project/mux.v
+FE:/LED Project/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/LED Project/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project|E:/LED Project/mux.v|
+!i113 1
+R5
+R6
+R7

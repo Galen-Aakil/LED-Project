@@ -1,0 +1,99 @@
+# Reading D:/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do LED_Project_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project {E:/LED Project/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project" E:/LED Project/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project {E:/LED Project/LED_Project.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project" E:/LED Project/LED_Project.v 
+# -- Compiling module LED_Project
+# 
+# Top level modules:
+# 	LED_Project
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project {E:/LED Project/fenpin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project" E:/LED Project/fenpin.v 
+# -- Compiling module fenpin
+# 
+# Top level modules:
+# 	fenpin
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project {E:/LED Project/color.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project" E:/LED Project/color.v 
+# -- Compiling module color
+# 
+# Top level modules:
+# 	color
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project {E:/LED Project/debounce.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project" E:/LED Project/debounce.v 
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/LED\ Project/simulation/modelsim {E:/LED Project/simulation/modelsim/LED_Project.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:18:52 on Jul 01,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/LED Project/simulation/modelsim" E:/LED Project/simulation/modelsim/LED_Project.vt 
+# -- Compiling module LED_Project_vlg_tst
+# 
+# Top level modules:
+# 	LED_Project_vlg_tst
+# End time: 05:18:52 on Jul 01,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  LED_Project_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" LED_Project_vlg_tst 
+# Start time: 05:18:53 on Jul 01,2019
+# Loading work.LED_Project_vlg_tst
+# Loading work.LED_Project
+# Loading work.fenpin
+# Loading work.debounce
+# Loading work.mux
+# Loading work.color
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Administrator  Hostname: AX83L6HRFJ9JY53  ProcessID: 9608
+#           Attempting to use alternate WLF file "./wlftrzhiev".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrzhiev
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+# Break key hit
+# Break in Module mux at E:/LED Project/mux.v line 13
+# End time: 05:19:01 on Jul 01,2019, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 2

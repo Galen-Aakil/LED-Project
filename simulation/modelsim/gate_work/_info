@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/LED Project/simulation/modelsim
+vhard_block
+Z1 !s110 1561929170
+!i10b 1
+!s100 5ile=T@UVF7;3C56HR]im2
+IT71zgWZPl@S9CL?66=CmN1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1561928957
+Z4 8LED_Project_8_1200mv_85c_slow.vo
+Z5 FLED_Project_8_1200mv_85c_slow.vo
+L0 3640
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1561929170.000000
+Z8 !s107 LED_Project_8_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|LED_Project_8_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vLED_Project
+R1
+!i10b 1
+!s100 DW4J0GGWDz4ZLio0i;VJ03
+IM3MU8:BI6DbHWI8elzR;C0
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@l@e@d_@project
+vLED_Project_vlg_tst
+R1
+!i10b 1
+!s100 FfVlUZU`ZVVgd_Y2D?Q?f0
+I4>3O1ob4j=j4mYm[@O[453
+R2
+R0
+w1561929071
+8E:/LED Project/simulation/modelsim/LED_Project.vt
+FE:/LED Project/simulation/modelsim/LED_Project.vt
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 E:/LED Project/simulation/modelsim/LED_Project.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/LED Project/simulation/modelsim|E:/LED Project/simulation/modelsim/LED_Project.vt|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+E:/LED Project/simulation/modelsim}
+R12
+n@l@e@d_@project_vlg_tst

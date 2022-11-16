@@ -1,0 +1,15 @@
+module LED_Project(clk, sel, rst, q);
+   input        clk;
+   input        sel;
+   input        rst;
+   output [7:0] q;
+   wire         h0;
+   wire         h1;
+   
+   fenpin u1(.rst(rst), .clk(clk), .clkk(h0));
+   
+   mux u2(.a(h0), .b(clk), .sel(sel), .y(h1));
+   
+   color u3(.clk(h1), .rst(rst), .q(q));
+   
+endmodule
